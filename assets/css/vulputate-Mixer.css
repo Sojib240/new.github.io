@@ -1,0 +1,1201 @@
+/* ============================================================
+                                                 hero-1
+==============================================================*/
+.swiper.mySwiper {
+    margin: auto;
+    width: 75%;
+    margin-top: -75px;
+    height: 140px;
+    background-color: rgb(224, 224, 224);
+    padding: 5px;
+}
+
+.main-swiper {
+    width: 50%;
+}
+
+.mySwiper2 {
+    width: 100%;
+}
+
+.mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swiper-slide-1 img {
+    display: block;
+    width: 100%;
+    max-height: 80vh;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+
+.mySwiper:hover .swiper-button-prev:after {
+    visibility: visible;
+    opacity: 1;
+}
+
+.mySwiper:hover .swiper-button-next:after {
+    visibility: visible;
+    opacity: 1;
+}
+
+.hero-section-1 .hero-section-1-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+.hero-section-1-contents {
+    padding: 90px 0px 0px 90px;
+    width: 50%;
+}
+
+.hero-section-1 h1 {
+    font-size: 52px;
+    font-weight: 700;
+    margin: 25px 0px 35px 0px;
+}
+
+.hero-section-1 h5 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.hero-section-1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-section-1 h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+i.fa-sharp.fa-solid.fa-circle {
+    font-size: 22px;
+}
+
+.hero-section-1 .btn p {
+    color: white;
+    font-size: 12px;
+    margin: 0;
+}
+
+.hero-section-1 p {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 40px 0 0 0;
+    line-height: 37px;
+    color: #3a3a3a;
+    text-align: justify;
+    width: 80%;
+}
+
+.product-summery-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.big {
+    font-size: 20px;
+    color: black;
+}
+
+.hero-section-1 h6 {
+    font-size: 12px;
+    margin: 0 0 15px 0;
+    letter-spacing: 3px;
+}
+
+.hero-section-1 h3 {
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-right: 18px;
+}
+
+.order-section span.bold {
+    font-weight: 600;
+    font-size: 21px;
+    color: #e76369;
+}
+
+.border::after {
+    position: relative;
+    content: "";
+    width: 78%;
+    height: 3px;
+    display: block;
+    background: #ededed;
+}
+
+.border::before {
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 3px;
+    display: block;
+    background: linear-gradient(to right, yellow, #e76369);
+    z-index: 9;
+}
+
+.space {
+    margin: 6px;
+}
+
+sup {
+    font-size: 12px;
+}
+
+.btn-addToCart-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 40px 0px 25px 0px;
+}
+
+.btn-group {
+    display: flex;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 140px;
+}
+
+span.mainus {
+    font-size: 20px;
+    border-radius: 25px;
+    background: #ecebe6;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+span.one {
+    font-size: 15px;
+    margin: 0px 15px 0px 15px;
+}
+
+span.plus {
+    font-size: 20px;
+    border-radius: 25px;
+    background: #ecebe6;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.order-section {
+    width: 100%;
+}
+
+/* ============================================================
+                                 second 
+==============================================================*/
+.second {
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+
+.second .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 88%;
+    margin: auto;
+}
+
+.second .title {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.second .information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.second .information span {
+    font-weight: 600;
+}
+
+.second .information .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.second h1 {
+    font-size: 31px;
+    padding: 25px;
+    font-weight: 600;
+}
+
+.second h5 {
+    font-size: 16px;
+}
+
+.second p {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 37px;
+    color: #3a3a3a;
+    text-align: justify;
+}
+
+.second .bottom-title span {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.bottom-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.bottom-title h1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.fade {
+    color: #e6e6e6;
+    transition: 0.6s ease;
+}
+
+.fade:hover {
+    color: #000;
+}
+
+/*================================================================
+                                    third
+=================================================================*/
+.third {
+    margin-bottom: 60px;
+}
+
+.third .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto !important;
+}
+
+.third .title h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 50px 0px 25px 0px;
+}
+
+.card h4 {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    z-index: 9;
+    padding: 8px 15px;
+    color: #fbb067;
+    background: white;
+    border: 2px solid #fbb067;
+}
+
+.third .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    flex-basis: 32%;
+    overflow: hidden;
+    margin: 40px 0px;
+}
+
+.card:hover .card-contents {
+    bottom: 100px;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    padding: 0px 0px 0px 25px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.third .container img {
+    width: 100%;
+}
+
+img.hide {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s ease;
+    top: 0;
+    left: 0;
+    padding: 0px 0px 0px 25px;
+}
+
+img.show {
+    visibility: visible;
+    opacity: 1;
+    transition: 1s ease;
+}
+
+.card:hover img.show {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card:hover img.hide {
+    position: absolute;
+    visibility: visible;
+    opacity: 1;
+}
+
+.icons {
+    margin-bottom: 10px;
+}
+
+i.fa-sharp.fa-solid.fa-star {
+    font-size: 12px;
+}
+
+i.fa-solid.fa-star-half-stroke {
+    font-size: 12px;
+}
+
+.third h1::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 1px;
+    transition: 0.5s ease;
+    background-color: black;
+}
+
+.card:hover h1::after {
+    width: 100%;
+}
+
+.card-contents {
+    position: absolute;
+    bottom: 35px;
+    width: 95%;
+    transition: 0.6s;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.product2 {
+    display: none;
+}
+
+.product h1 {
+    font-size: 25px;
+    width: 44%;
+}
+
+.product p {
+    font-size: 18px;
+    margin: 0;
+    width: 18%;
+}
+
+.card.add-to-cart p {
+    font-size: 18px;
+    margin: 0;
+    width: 17%;
+}
+
+.add-to-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    left: 25px;
+    margin: 45px 0px 0px 0px;
+    color: black;
+}
+
+.add-to-cart p {
+    font-size: 12px;
+    padding: 12px 15px;
+    color: white;
+    border: 1px solid #f6f6f6;
+    transition: 0.5s;
+    background-color: black;
+}
+
+.add-to-cart p:hover {
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+i.fa-sharp.fa-regular.fa-eye {
+    padding: 12px 15px;
+    font-size: 12px;
+    border: 1px solid #f6f6f6;
+    transition: 0.5s;
+    background-color: black;
+    color: #fff;
+}
+
+i.fa-sharp.fa-regular.fa-eye:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+i.fa-sharp.fa-regular.fa-heart {
+    padding: 12px 15px;
+    font-size: 12px;
+    border: 1px solid #f6f6f6;
+    transition: 0.5s;
+    background-color: black;
+    color: #fff;
+}
+
+i.fa-sharp.fa-regular.fa-heart:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+i.fa-solid.fa-cart-shopping {
+    display: none;
+    padding: 12px 15px;
+    font-size: 12px;
+    border: 1px solid #f6f6f6;
+    transition: 0.5s;
+    background-color: black;
+    color: #fff;
+}
+
+i.fa-solid.fa-cart-shopping:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.card-top-content {
+    width: 95%;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-group {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+i.fa-solid.fa-circle {
+    padding: 4px;
+}
+
+i.fa-solid.fa-circle-dot {
+    padding: 4px;
+}
+
+/*================================================================
+                                                responsive
+=================================================================*/
+@media (max-width: 1400px) {
+    /* hero */
+    .add .container {
+        max-width: 95%;
+    }
+
+    .btn-addToCart-section {
+        flex-direction: column;
+    }
+
+    .hero-section-1-contents {
+        padding: 40px 0 0 40px;
+    }
+
+    .btn-group {
+        margin: 25px 0px 0px 0px;
+    }
+
+    /* second */
+    .second .information {
+        margin-top: 25px;
+    }
+
+    .second p {
+        font-size: 20px;
+        font-weight: 300;
+        color: #3a3a3a;
+    }
+
+    /* third */
+    .card h1 {
+        font-size: 22px;
+        width: 45%;
+    }
+
+    .card-contents {
+        width: 85%;
+    }
+}
+@media (max-width: 1200px) {
+    /* hero */
+    .hero-section-1 h5 {
+        font-size: 17px;
+    }
+
+    .hero-section-1 h1 {
+        font-size: 45px;
+    }
+
+    .hero-section-1 h4 {
+        font-size: 18px;
+    }
+
+    .hero-section-1 p {
+        font-size: 18px;
+        line-height: 31px;
+        width: 90%;
+    }
+
+    .hero-section-1 h6 {
+        font-size: 12px;
+    }
+
+    .hero-section-1 .btn {
+        position: relative;
+        width: 150px;
+        height: 40px;
+    }
+
+    .hero-section-1 .btn:hover::before {
+        height: 36px;
+    }
+
+    .hero-section-1 .btn-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 40px;
+    }
+
+    /* third */
+    .product h1 {
+        width: 50%;
+        font-size: 20px;
+    }
+
+    .card h1 {
+        font-size: 18px;
+        width: 50%;
+    }
+
+    .card h4 {
+        font-size: 10px;
+        padding: 6px 15px;
+    }
+
+    .add-to-cart p {
+        font-size: 10px;
+        padding: 12px 15px;
+    }
+
+    i.fa-sharp.fa-regular.fa-eye {
+        padding: 12px 15px;
+        font-size: 10px;
+    }
+
+    i.fa-sharp.fa-regular.fa-heart {
+        padding: 12px 15px;
+        font-size: 10px;
+    }
+
+    i.fa-solid.fa-arrows-rotate {
+        padding: 12px 15px;
+        font-size: 10px;
+    }
+}
+@media (max-width: 1024px) {
+    /* second */
+    .second .information {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    /* third */
+    .product p {
+        font-size: 15px;
+        margin: 0;
+    }
+}
+@media (max-width: 992px) {
+    /* hero */
+    .mySwiper {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .hero-section-1 .title {
+        width: 90%;
+    }
+
+    .hero-section-1 h5 {
+        font-size: 13px;
+    }
+
+    .hero-section-1 h1 {
+        font-size: 42px;
+    }
+
+    .hero-section-1 h4 {
+        font-size: 20px;
+    }
+
+    .hero-section-1 p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .hero-section-1 h6 {
+        font-size: 11px;
+    }
+
+    .btn-group {
+        margin: 30px 0px 0px 0px;
+    }
+
+    i.fa-sharp.fa-solid.fa-circle {
+        font-size: 16px;
+    }
+
+    .hero-section-1 .btn p {
+        color: white;
+        font-size: 10px;
+    }
+
+    .hero-section-1 .btn {
+        position: relative;
+        width: 145px;
+        height: 35px;
+    }
+
+    .hero-section-1 .btn-4 {
+        width: 145px;
+        height: 35px;
+    }
+
+    .hero-section-1 .btn:hover::before {
+        height: 31px;
+    }
+
+    span.mainus {
+        font-size: 15px;
+        border-radius: 25px;
+        width: 22px;
+        height: 22px;
+    }
+
+    span.plus {
+        font-size: 15px;
+        border-radius: 25px;
+        width: 22px;
+        height: 22px;
+    }
+
+    .swiper.mySwiper {
+        margin: auto;
+        width: 75%;
+        margin-top: -55px;
+        height: 100px;
+        background-color: rgb(165, 165, 165);
+        padding: 5px;
+    }
+
+    /* second */
+    .third .container {
+        width: 85%;
+        margin: auto;
+    }
+
+    /* third */
+    .third .container {
+        width: 85%;
+        margin: auto;
+    }
+
+    .card h1 {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .card h4 {
+        font-size: 9px;
+        left: -15px;
+        padding: 5px 12px;
+    }
+
+    .product {
+        text-align: left;
+        position: absolute;
+        left: -18px;
+        top: -90px;
+    }
+
+    .product {
+        display: flex;
+        width: 100%;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .product2 {
+        display: none;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .add-to-cart {
+        width: 99%;
+        left: 0px;
+        margin: auto;
+    }
+
+    .product2 h1 {
+        font-size: 16px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .product2 p {
+        font-size: 18px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    i.fa-sharp.fa-regular.fa-eye {
+        display: block;
+        font-size: 15px;
+    }
+
+    i.fa-sharp.fa-regular.fa-heart {
+        display: block;
+        font-size: 15px;
+    }
+
+    p.addCart {
+        font-size: 13px;
+        width: 100%;
+        padding: 13px;
+    }
+
+    .image {
+        overflow: visible;
+        padding: 0;
+    }
+
+    img.hide {
+        padding: 0px;
+    }
+    .card {
+        overflow: visible;
+        position: relative;
+        text-align: center;
+        flex-basis: 30%;
+        margin: 40px 0px;
+    }
+
+    .card-contents {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        transition: 0.6s;
+    }
+
+    i.fa-solid.fa-arrows-rotate {
+        display: none;
+    }
+
+    .card:hover .card-contents {
+        bottom: 0;
+    }
+
+    .card-top-content {
+        width: 100%;
+        top: 15px;
+        left: -15px;
+    }
+
+    i.fa-solid.fa-circle {
+        font-size: 10px;
+    }
+
+    i.fa-solid.fa-circle-dot {
+        font-size: 10px;
+    }
+}
+@media (max-width: 768px) {
+    /* hero */
+    .main-swiper {
+        height: auto;
+        width: 100%;
+    }
+
+    .swiper.mySwiper {
+        margin: auto;
+        width: 75%;
+        margin-top: -75px;
+        height: 150px;
+        background-color: rgb(165, 165, 165);
+        padding: 5px;
+    }
+
+    .hero-section-1 .hero-section-1-container {
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    .hero-section-1-contents {
+        height: auto;
+        width: 88%;
+        margin: auto;
+        margin-top: 50px;
+        padding: 0;
+    }
+
+    .hero-section-1 h1 {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+
+    .hero-section-1 h4 {
+        font-size: 22px;
+    }
+
+    span.mainus {
+        width: 25px;
+        height: 25px;
+    }
+
+    span.plus {
+        width: 25px;
+        height: 25px;
+    }
+
+    .hero-section-1 p {
+        width: 100%;
+        margin: 25px 0 10px 0;
+    }
+
+    .btn-addToCart-section {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .btn-group {
+        margin: 15px 0px 0px 0px;
+    }
+
+    /* second */
+    .second .information {
+        width: 88%;
+    }
+
+    .second p {
+        font-size: 17px;
+        line-height: 32px;
+    }
+
+    .second .title {
+        justify-content: center;
+    }
+
+    .second .title h1 {
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .bottom-title h1 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* third */
+    .container {
+        justify-content: space-between;
+    }
+
+    .card:hover h1::after {
+        width: 0%;
+    }
+
+    .card {
+        flex-basis: 45%;
+    }
+
+    .third .title {
+        margin: 80px 0px 70px 0px;
+    }
+
+    .third .title h1 {
+        font-size: 30px;
+    }
+
+    .card-top-content {
+        top: 5px;
+    }
+
+    .image-group {
+        flex-direction: column;
+    }
+
+    .product {
+        display: none;
+    }
+
+    .product2 {
+        display: block;
+    }
+
+    .card h1 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    /* hero */
+    .swiper.mySwiper {
+        margin: auto;
+        width: 100%;
+        margin-top: -75px;
+        height: 120px;
+    }
+
+    .hero-section-1 h1 {
+        font-size: 40px;
+    }
+
+    .hero-section-1 h4 {
+        font-size: 20px;
+    }
+
+    /* second */
+    .second .information {
+        width: 100%;
+        margin: 10px 0 20px 0;
+    }
+
+    .hero h3 {
+        font-size: 10px;
+    }
+
+    /* third */
+    i.fa-sharp.fa-regular.fa-eye {
+        font-size: 12px;
+        padding: 9px 12px;
+    }
+
+    i.fa-sharp.fa-regular.fa-heart {
+        font-size: 12px;
+        padding: 9px 12px;
+    }
+
+    i.fa-solid.fa-cart-shopping {
+        display: block;
+        font-size: 12px;
+        padding: 9px 12px;
+    }
+
+    p.addCart {
+        display: none;
+    }
+
+    .third .title {
+        margin: 70px 0px 50px 0px;
+    }
+
+    .third .title h1 {
+        font-size: 30px;
+    }
+}
+@media (max-width: 480px) {
+    /* hero */
+    .hero-section-1 .btn {
+        width: 120px;
+        height: 35px;
+    }
+
+    .hero-section-1 .btn-4 {
+        font-size: 9px;
+        width: 120px;
+        height: 35px;
+    }
+
+    .hero-section-1 .btn p {
+        font-size: 9px;
+        margin: 0;
+    }
+    /* second */
+    .bottom-title h1 {
+        padding: 22px 8px;
+    }
+
+    /* third */
+    .product2 h1 {
+        font-size: 14px;
+    }
+
+    .product2 p {
+        font-size: 13px;
+    }
+
+    p.addCart {
+        font-size: 12px;
+    }
+
+    .add-to-cart {
+        padding: 5px 0px 5px 0px;
+    }
+
+    .card-top-content {
+        top: 0px;
+        left: 0px;
+    }
+
+    .image-group {
+        flex-direction: row;
+    }
+
+    i.fa-solid.fa-circle {
+        font-size: 7px;
+    }
+
+    i.fa-solid.fa-circle-dot {
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 450px) {
+    /* hero */
+    .swiper.mySwiper {
+        width: 100%;
+        height: 100px;
+    }
+
+    .hero-section-1 h1 {
+        font-size: 35px;
+    }
+
+    .hero-section-1 h4 {
+        font-size: 18px;
+    }
+
+    /* second */
+    .second .information .content {
+        flex-direction: column;
+    }
+
+    .second .title h1 {
+        font-size: 22px;
+    }
+    /* third */
+    .third .title {
+        margin: 60px 0px 20px 0px;
+    }
+
+    .third .title h1 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 400px) {
+    /* second */
+    .hero-section-1 .btn-4 {
+        width: 120px;
+        height: 35px;
+    }
+
+    .hero-section-1 .btn {
+        width: 120px;
+        height: 35px;
+    }
+
+    .second .title {
+        flex-direction: column;
+    }
+
+    .second {
+        margin-top: 70px;
+    }
+
+    .bottom-title h1 {
+        padding: 20px 30px;
+    }
+}

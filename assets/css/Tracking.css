@@ -1,0 +1,121 @@
+
+/*===============================================
+                                    hero
+ =============================================== */
+ .hero{
+    max-width: 800px ;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 80px;
+ }
+ .hero .track {
+    background: #f4f4f4;
+    width: 100%;
+    max-width: 600px;
+    padding: 40px;
+}
+.hero h1{
+        font-size: 60px ;
+        font-weight: 700;
+        margin: 20px 0px 20px 0px;
+        text-align: center;     
+    }
+    .hero h6{
+        font-size: 14px ;
+        font-weight: 300;
+        text-align: center;     
+    }
+    .hero form {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+     }
+     .hero input[type="text"] {
+        width: 98%;
+        height: 45px;
+        outline: none;
+        padding-left: 10px;
+        margin: 20px 5px;
+        border: 2px solid #dddddd;
+        transition: 0.4s ease;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .hero input[type="text"]:focus {
+        border: 2px solid black;
+    }
+    .hero input[type="text"]::placeholder {
+       color: #000;
+       padding-left:10px ;
+    }
+    .hero p{
+        font-size: 22px;
+        line-height: 37px;
+        font-weight: 300;
+        color: black;
+        text-align: justify;
+    }
+    
+/*===============================================
+                                    responsive
+ =============================================== */
+ @media (max-width:768px) {
+    /* hero */
+    .hero p {
+        font-size: 16px;
+        line-height: 30px;
+    }    
+    .hero h1 {
+        font-size: 55px;
+    }
+    .hero input[type="text"] {
+        margin: 10px 5px;
+    }
+    .hero {
+        width: 90%;
+    }
+    a.animated-button {
+        margin: 10px;
+    }
+
+ }
+ @media (max-width:576px) {
+        /* hero */
+        .hero p {
+        font-size: 16px;
+        line-height: 25px;
+    }    
+    .hero h6 {
+        font-size: 16px;
+    }
+    .hero h1 {
+        font-size: 50px;
+    }
+ }
+ @media (max-width:455px) {
+        /* hero */
+        .hero h6 {
+            font-size: 12px;
+        }
+        .hero p {
+            font-size: 13px;
+            line-height: 22px;
+        }    
+        .hero h1 {
+            font-size: 45px;
+        }
+        .hero .track {
+             padding: 30px;
+        }
+ }
+ /*===============================================
+                                    responsive
+ =============================================== */

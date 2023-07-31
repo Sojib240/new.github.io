@@ -1,0 +1,139 @@
+header {
+    background-color: #f7f7f7 !important;
+}
+/*================================================================
+                                                hero
+=================================================================*/
+
+.hero {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    padding: 30px 0 100px 0;
+    text-align: center;
+}
+.hero .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+span {
+    margin: 0px 10px;
+    font-weight: 300;
+}
+.hero p {
+    font-size: 18px;
+    font-weight: 300;
+}
+.hero h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+/*================================================================
+                                                second
+=================================================================*/
+
+.second .container {
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+.second .container p {
+    font-size: 22px;
+    line-height: 37px;
+    font-weight: 300;
+    text-align: justify;
+}
+.second .container h1 {
+    font-size: 22px;
+    line-height: 37px;
+    font-weight: 700;
+    text-align: left;
+}
+
+/*================================================================
+                                                responsive
+=================================================================*/
+@media (max-width: 1400px) {
+    /* second */
+    .second .container {
+        width: 75%;
+    }
+}
+@media (max-width: 1200px) {
+    /* hero */
+    .hero .content-1 {
+        width: 50%;
+    }
+    .hero .content-2 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1024px) {
+    /* hero */
+    .hero h1 {
+        font-size: 52px;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+    /* second */
+    .second .container p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    /* hero */
+    .second .container {
+        width: 80%;
+    }
+    .hero .content {
+        margin: 40px;
+    }
+    /* second */
+    .second .container p {
+        font-size: 20px;
+        line-height: 37px;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 768px) {
+    /* hero */
+    .hero h1 {
+        font-size: 45px;
+    }
+    .hero p {
+        font-size: 14px;
+    }
+    .hero .content {
+        margin: 30px;
+    }
+    /* second */
+    .second .container p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* hero */
+    .hero h1 {
+        font-size: 35px;
+    }
+    .hero p {
+        font-size: 12px;
+    }
+    /* second */
+    .second .container p {
+        font-size: 14px;
+    }
+}
